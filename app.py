@@ -27,7 +27,10 @@ def finalizar_app():
     print('Programa finalizado')
 
 def escolher_opcao():
-    '''Essa função é responsável por escolher as opções no menu'''
+    '''Essa função é responsável por escolher as opções no menu\n
+        inputs: número da opção escolhida\n
+        outputs: inicialização do fluxo escolhido
+    '''
     opcao_escolhida = int(input('Escolha uma opção: '))
 
     try:
